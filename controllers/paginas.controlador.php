@@ -3,12 +3,12 @@
 class ControladorPaginas{
 
 	/*=============================================
-	=            Paginas          =
+	=           Controlador          =
 	=============================================*/
 
 	static public function ctrMostrarPaginas($item, $valor){
 
-		$tabla = /* Nombre de la tabla donde van almacenadas las rutas de la paginas del sitio web*/;
+		$tabla = /* Nombre de la tabla donde van almacenadas las rutas en la base de datos*/;
 
 		$respuesta = ModeloCategorias::mdlMostrarPaginas($tabla, $item, $valor);
 
